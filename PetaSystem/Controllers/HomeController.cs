@@ -23,7 +23,8 @@ namespace PetaSystem.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string hub = "helloworld";
+            hub += hub;
             return View();
         }
     }
